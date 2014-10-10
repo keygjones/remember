@@ -1,0 +1,23 @@
+<head>
+  <title>remember</title>
+</head>
+
+<body>
+  <h1>Find matching colors</h1>
+  	{{> hello}}
+    {{> random}}
+	
+</body>
+
+<template name="hello">
+	{{message}}
+  <p>Turns left: {{counter}}.</p>
+</template>
+
+<template name="random">
+	<div class="parent">
+  {{#each colors}}
+      <div class="square" style="background-color:{{.}}"></div>
+  {{/each}}
+  </div>
+</template>

@@ -1,0 +1,21 @@
+/* CSS declarations go here */
+.square{
+	width:100px;
+	height:100px;
+	float:left;
+	border: solid 1px;
+	margin: 3px;
+	background-color: gray !important;
+}
+
+.showColorSquare{
+	width:100px;
+	height:100px;
+	float:left;
+	border: solid 1px;
+	margin: 3px;
+}
+
+.parent{
+	width:450px;
+}
